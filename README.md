@@ -17,3 +17,9 @@ We use the Kaggle [Fake & Real News dataset](https://www.kaggle.com/datasets/clm
 - `Fake.csv` — Fake news articles  
 - Each dataset includes `title`, `text`, `subject`, and `date` columns.  
 - Combined and labeled: `1` for real, `0` for fake.
+
+## Results
+- Logistic Regression achieved ~99% accuracy and high ROC-AUC.
+- LSTM achieved similar performance and can generalize better with more data.
+- Both models are ready for deployment.
+
